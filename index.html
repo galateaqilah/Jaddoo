@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jadoo: Travel Agency</title>
+  <link rel="shortcut icon" href="asset/jadoo/jadoo-logo.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://font.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,500;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class=" m-3 navbar p-3 navbar-expand-lg navbar-light bg-transparent position-fixed">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="asset/jadoo/jadoo-ic.svg" alt="jadoo" width="80">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Destinations</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Hotels</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Other
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Flights</a></li>
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <button class="button-primary btn">Register</button>
+          <button class="button-secondary btn">Log In</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- hengr0h seksyion -->
+  <section id="hero">
+    <div class="container h-100">
+
+      <div class="row h-100">
+
+        <div class="col-md-5 hero-tagline my-auto">
+          <img class="img-hero" src="asset/jadoo/Traveller.png" alt="">
+        </div>
+
+        <div class="jadoo-container col-md-7 container-fluid">
+          <img class="jadoo-text" src="asset/jadoo/txt-discover.svg" alt="">
+          <img class="jadoo-text" src="asset/jadoo/txt-wander.svg" alt="">
+          <img class="jadoo-text" src="asset/jadoo/txt-thrive.svg" alt="">
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SECTION LAYANAN  -->
+  <section id="layanan">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <span class="sub-title">BEST SELLING</span>
+          <h2 class="header-text">Favorite Destination</h2>
+          <p class="desc-text"> People are love this before, perhaps you either</p>
+        </div>
+        <div class="row justify-content-center mt-5">
+
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/rome.png" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Rome, Italy</h5>
+                  <h5 class="place-range card-title">$5.2k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">15 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/santorini.svg" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Santorini, Greece</h5>
+                  <h5 class="place-range card-title">$4.5k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">13 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/tokyo.svg" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Tokyo, Japan</h5>
+                  <h5 class="place-range card-title">$6.5k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">10 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/macchu-picchu.svg" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Machu Picchu, Peru</h5>
+                  <h5 class="place-range card-title">$3.8k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">7 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/sydney.svg" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Sydney, Australia</h5>
+                  <h5 class="place-range card-title">$8.9k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">14 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem; border-radius: 2rem;">
+              <img src="asset/jadoo/reykjavik.svg" class="card-img-top" style="border-radius: 2rem 2rem 0 0;" alt="...">
+              <div class="card-body p-3">
+                <div class="d-flex justify-content-between">
+                  <h5 class="place-range card-title">Reykjavik, Iceland </h5>
+                  <h5 class="place-range card-title">$4.2k</h5>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                  <img class="ic-trip" src="asset/jadoo/trip-ic.svg" alt="">
+                  <h5 class="days-trip m-2">5 Days Trip</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION LAYANAN  -->
+
+  <!-- SECTION SELLING-->
+  <section id="selling">
+    <div class="container">
+
+
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="row"> <span class="sub-title">BEST SELLING <span class="badge"
+                style="color: white; background-color: #DF6955;">New</span></span>
+          </div>
+
+          <h2 class="header-text w-100">Book your next trip
+            in 3 steps</h2>
+
+
+          <div class="d-flex mt-3 align-items-center justify-content-center">
+            <img class="icon-booking" src="asset/jadoo/choose-destination-1.svg" alt="">
+            <div class="ms-3 ">
+              <h6 class="sub-title" style="font-size: larger;">Choose Destination</h6>
+              <p class="desc-booking-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+          </div>
+          <div class="d-flex mt-4 align-items-center justify-content-center">
+            <img class="icon-booking" src="asset/jadoo/make-payment-2.svg" alt="">
+            <div class="ms-3 ">
+              <h6 class="sub-title" style="font-size: larger;">Make Payment</h6>
+              <p class="desc-booking-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+          </div>
+          <div class="d-flex mt-4 align-items-center justify-content-center">
+            <img class="icon-booking" src="asset/jadoo/reach-airport-3.svg" alt="">
+            <div class="ms-3 ">
+              <h6 class="sub-title" style="font-size: larger;">Reach Airport on Selected Date</h6>
+              <p class="desc-booking-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus. </p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-6 col-md-6">
+          <img class="img-booking" src="asset/jadoo/booking.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- SECTION SELLING-->
+
+  <!-- SECTION REVIEW-->
+  <section>
+     <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div class="row"><span class="sub-title">TESTIMONIALS</span>
+          </div>
+          <h2 class="header-text w-100" style="max-width: 25rem;">What people say
+            about Us.</h2>
+
+        </div>
+
+        <div class="col-6">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+
+                <div class="card d-block w-100 border-0" style="width: 18rem;">
+                  <div class="card-body">
+                    <img src="asset/jadoo/user-2.svg" class="card-img-top img-style"
+                      style="transform: translateY(1rem);" alt="...">
+                    <p class="card-text rounded-3 card-testimonial">Absolutely fantastic experience with Jadoo!🤩 From
+                      booking to the actual trip, everything was seamless. Their attention to detail ensured that every
+                      aspect of our journey was taken care off.
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+
+                <div class="card d-block w-100 border-0" style="width: 18rem;">
+                  <div class="card-body">
+                    <img src="asset/jadoo/user-3.svg" class="card-img-top img-style"
+                      style="transform: translateY(1rem);" alt="...">
+                    <p class="card-text rounded-3 card-testimonial">Kudos to Jadoo for curating a dream vacation that
+                      exceeded all expectations! From exotic destinations to unique cultural experiences, every moment
+                      was filled with wonder and delight.🙌🏻 </p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+
+                <div class="card d-block w-100 border-0" style="width: 18rem;">
+                  <div class="card-body">
+                    <img src="asset/jadoo/user-4.svg" class="card-img-top img-style"
+                      style="transform: translateY(1rem);" alt="...">
+                    <p class="card-text rounded-3 card-testimonial">A big shoutout to Jadoo for planning the most
+                      memorable vacation of our lives! Each recommendation was spot on, and the accommodations were
+                      beyond our expectations. Highly Reccomended🚀</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: 8rem;" class="mb-5">
+    <h2 class="header-text w-100 text-center">FAQ</h2>
+    <h6 class="sub-title text-center mb-5">FREQUENTLY ASKED QUESTION</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <strong> #1 How do I book a trip with Jadoo? </strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Booking a trip with us is easy! Simply visit our website or contact our friendly team via phone or
+                  email. Let us know your desired destination, travel dates, budget, and any specific preferences you
+                  have, and we'll take care of the rest.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong> #2 Can Jadoo help with travel arrangements such as flights and accommodations? </strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Absolutely! We offer comprehensive travel services, including booking flights, accommodations,
+                  transportation, tours, and activities. Whether you're looking for a luxury resort, a cozy bed and
+                  breakfast, or a unique boutique hotel, we'll find the perfect option for you.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>#3 What types of destinations does Jadoo specialize in? </strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our expertise covers a wide range of destinations worldwide, from tropical beaches to bustling cities
+                  to remote wilderness areas. Whether you're dreaming of a relaxing beach getaway, a cultural immersion
+                  in a historic city, or an adventurous trek through rugged landscapes, we can design the ideal
+                  itinerary for you.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <div class="text-wrapper">
+      <div class="marquee">
+        <img src="asset/jadoo/ic-axon-1.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-jetstar-2.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-expedia-3.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-qantas-4.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-alitalia-5.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-axon-1.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-jetstar-2.svg" alt="star">
+      </div>
+      <div class="marquee">
+        <img src="asset/jadoo/ic-expedia-3.svg" alt="star">
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-2 mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-5 rounded-5" style="background-color: #dfd7f970;">
+          <h4 class="text-center subscribe-text"> Subscribe to get information, <br>latest news and other
+            interesting offers about Jadoo </h4>
+
+          <div class="row mt-3">
+            <form class="mt-4">
+              <div class="form-floating mb-3 d-flex me-3">
+                <input type="email" class="form-control bg-color me-5 border border-0 rounded-3" id="floatingInput"
+                  placeholder="name@example.com">
+                <label for="floatingInput" class="text-color"> <img class=" me-2" src="asset/jadoo/email.svg"
+                    alt=""></label>
+
+                <button type="submit" class="btn1 button-send ms-1 border-0">Subscribe</button>
+
+                <!-- <button> GO GET SOME THING HEREE</button> -->
+
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="d-flex align-items-center position-relative">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center mb-3">
+            <img src="asset/jadoo/jadoo-ic.svg" alt="">
+          </div>
+
+          <div class="col-md-5 d-flex justify-content-evenly mb-5">
+            <a href="">Beranda</a>
+            <a href="">Layanan</a>
+            <a href="">Fitur</a>
+            <a href="">Kontak</a>
+          </div>
+        </div>
+        <div class="row copyright position-absolute start-50 translate-middle">
+          <div class="col-12">
+            <p class="text-center"> Copyright bg Creative Academy All Right Reserved. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="myscript/script.js"></script>
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
